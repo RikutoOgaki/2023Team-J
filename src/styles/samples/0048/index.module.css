@@ -1,0 +1,50 @@
+.mainimgbox {
+    width: 100%;
+}
+
+.imgbox {
+    margin: 0;
+}
+
+.mainimg {
+    width: 100%;
+    height: 100%;
+}
+
+.sectionbox {
+    width: 100%;
+    height: 100%;
+}
+
+.contentsbox {
+    width: 100%;
+    height: 48rem;
+}
+
+.contents {
+    width: 90%;
+    height: 48rem;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.contentsImg {
+    width: 50%;
+    height: 40rem;
+}
+
+.contentsimg {
+    width: 50rem;
+    height: 40rem;
+}
+
+.contentsText {
+    width: 70%;
+    height: 40rem;
+    background-color: #afafaf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
