@@ -1,4 +1,4 @@
 node_modules/
-server/db/pgdata/data
+server/
 .DS_Store
 *.log
