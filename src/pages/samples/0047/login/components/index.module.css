@@ -1,0 +1,36 @@
+.wrap {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    width: 60rem;
+    height: 40rem;
+    display: flex;
+    border: 1px solid tomato;
+}
+
+.textbox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(blue, #4a4aff, #8b8bff);
+    color: #fff;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 70% 130%);
+}
+
+.inputbox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}

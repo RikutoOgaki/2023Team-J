@@ -1,0 +1,15 @@
+.object {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+}
+
+.mapRow {
+    display: flex;
+}
+.mapCell {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+}

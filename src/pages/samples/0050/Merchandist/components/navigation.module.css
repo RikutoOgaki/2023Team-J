@@ -1,0 +1,42 @@
+.nav {
+    position: fixed;
+    width: 25rem;
+    height: 200rem;
+    top: 0;
+    left: 0;
+}
+
+.ul {
+    background-color: #9e9e9e;
+    width: 25rem;
+    height: 200rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.ul h1 {
+    margin: 0;
+    padding: 0;
+    padding: 3rem;
+}
+
+.ul h1 a {
+    color: #fff;
+}
+
+.ul li {
+    width: 100%;
+    height: 4rem;
+    background-color: #9e9e9e;
+    line-height: 4;
+}
+
+.ul li:hover {
+    background-color: #c7c7c7;
+}
+
+.ul li a {
+    display: block;
+    color: #fff;
+}

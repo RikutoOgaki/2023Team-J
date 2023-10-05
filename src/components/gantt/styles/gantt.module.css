@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid rgb(216, 217, 218);
+    background-color: rgb(243, 244, 245);
+
+    box-shadow: 0 2px 4px #00000014;
+
+    overflow: hidden;
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    /* border: 1px solid red; */
+
+    overflow: hidden;
+}
+
+.hslide {
+    width: 0.5rem;
+    height: 100%;
+    background-color: rgb(229, 229, 232)
+}
+
+.left {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.right {
+    position: relative;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.timelineHeader {
+    display: flex;
+    width: fit-content;
+}
+
+.timelineHeader .columnHeader {
+    width: fit-content;
+}
+
+.timelineHeader .columnHeader .top {
+    width: 100%;
+    height: 2.5rem;
+    padding: .5rem 0 0 .5rem;
+    border-right: 1px solid rgb(216, 217, 218);
+    border-bottom: 1px solid rgb(216, 217, 218);
+    border-collapse: collapse;
+}
+
+.timelineHeader .subColumns {
+    display: flex;
+    width: 100%;
+}
+
+.timelineHeader .columnHeader .column {
+    display: flex;
+    width: 5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid rgb(216, 217, 218);
+    border-collapse: collapse;
+}
+
+.timelineHeader .columnHeader .column span {
+    display: inline-block;
+    width: 100%;
+}
+
+.timelineBg {
+    position: absolute;
+    display: flex;
+    width: fit-content;
+}
+
+.timelineBg .timeline {
+    width: 5rem;
+    border-right: 1px solid rgb(216, 217, 218);
+    border-collapse: collapse;
+}
