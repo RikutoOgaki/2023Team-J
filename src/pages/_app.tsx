@@ -1,7 +1,6 @@
 import '@/styles/globals.css'
 import { Noto_Sans_JP } from '@next/font/google'
 import type { AppProps } from 'next/app'
-import { Dialog } from 'primereact/dialog'
 
 import 'primeicons/primeicons.css'
 import 'primereact/resources/primereact.min.css'
