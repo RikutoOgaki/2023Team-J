@@ -3,7 +3,7 @@ import { Frame } from '@/components/template/Frame'
 import { Header } from '@/components/template/Header'
 import { Footer } from '@/components/template/Footer'
 import { Modal } from '@/components/template/Modal'
-import style from '@/styles/samples/03/index.module.scss'
+import style from '@/styles/Home/index.module.scss'
 
 export default function Sample03() {
 

@@ -1,0 +1,21 @@
+.head {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ACDE9B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fig {
+        width: 2rem;
+        height: 2rem;
+
+        .logo {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
